@@ -1,0 +1,41 @@
+.RecentList {
+    position: relative;
+}
+.RecentListImg {
+    cursor: pointer;
+    background-color: grey;
+    display: flex;
+    width: 231px;
+    height: 130px;
+    border: none;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 16px;
+}
+.RecentListImg:hover {
+    transform: scale(1.016);
+    transition: all 0.1s;
+}
+.RecentListTitle {
+    cursor: pointer;
+    font-size: 12px;
+    word-wrap: break-word;
+    /* background-color: darkgoldenrod; */
+    display: flex;
+    width: 231px;
+    height: 100%;
+    overflow: hidden;
+    margin: auto;
+}
+.RecentListTitle > h2 {
+    text-align: left;
+    margin-left: 8px;
+}
+.RecentListTitle:hover {
+    color: #61a974;
+    transition: color 0.3s ease;
+}
+.RecentListTitle:active {
+    color: #61a974;
+    opacity: 0.8;
+}

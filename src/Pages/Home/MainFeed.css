@@ -1,0 +1,75 @@
+.MainFeedContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+.MostRecent {
+    text-align: left;
+    user-select: none;
+}
+.Body {
+    display: flex;
+    height: 100%;
+    width: 1120px;
+    justify-content: space-between;
+}
+.MainContainer {
+    display: flex;
+    flex-direction: column;
+    width: 849px;
+    height: 100%;
+}
+.MainPost {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 276px;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+    align-items: center;
+}
+.MainPostImg {
+    background-color: grey;
+    display: flex;
+    width: 491px;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.1s;
+}
+.MainPostImg:hover {
+    transform: scale(1.016);
+}
+
+.MainPostTitle {
+    vertical-align: center;
+    text-align: left;
+    margin-left: 12px;
+    font-size: 32px;
+    flex: 1;
+    word-wrap: break-word;
+    transition: color 0.3s ease;
+}
+.MainPostTitle:hover {
+    color: #61a974;
+}
+.MainPostTitle:active {
+    color: #61a974;
+    opacity: 0.8;
+}
+.Older {
+    margin-top: 8px;
+    margin-right: 16px;
+    display: flex;
+    align-self: flex-end;
+    transition: color 0.3s ease;
+}
+.Older:hover {
+    cursor: pointer;
+    color: #00a2ff;
+}

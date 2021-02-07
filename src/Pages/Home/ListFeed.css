@@ -1,0 +1,22 @@
+.ListFeed {
+    flex-direction: column;
+    user-select: none;
+    align-content: center;
+    width: 231px;
+    height: 100%;
+    /* background-color: darksalmon; */
+    margin-left: 40px;
+    display: flex;
+    flex: 1;
+}
+.Listas {
+    text-align: left;
+}
+.SeeAllLists {
+    text-align: left;
+    cursor: pointer;    
+    transition: color 0.3s ease;
+}
+.SeeAllLists:hover {
+    color: #00a2ff;
+}

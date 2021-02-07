@@ -1,0 +1,27 @@
+.PublishedBy{
+    color: grey;
+    user-select: none;
+}
+.AuthorInfo {
+    display: flex;
+    flex-direction: row;
+    /* background-color: lightcoral; */
+}
+.AuthorImg {
+    width: 36px;
+    cursor: pointer;
+    height: 36px;
+    border: none;
+    border-radius: 28px;
+    align-self: center;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+.AuthorID{
+    cursor: pointer;
+    color: #61a974;
+    user-select: none;
+}
+.AuthorID:hover{
+    text-decoration: underline;
+}

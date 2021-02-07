@@ -1,0 +1,46 @@
+.AuthorAbout {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    width: 1120px;
+    /* background-color: lightcoral; */
+}
+.AuthorAboutImg {
+    width: 80px;
+    cursor: pointer;
+    height: 80px;
+    border: none;
+    border-radius: 50px;
+    align-self: left;
+    margin-right: 16px;
+    margin-left: 8px;
+}
+.AuthorContainer {
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+    /* background-color: greenyellow; */
+}
+.AuthorMain {
+    /* background-color: indigo; */
+    display: flex;
+    cursor: pointer;
+}
+.AuthorInfoID{
+    cursor: pointer;
+    color: #61a974;
+    user-select: none;
+    align-self: flex-start;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 8px;
+    /* background-color: khaki; */
+}
+.AuthorInfoDescriprion {
+    color: #404040;
+    user-select: none;
+    text-align: left;
+    /* background-color: brown; */
+    margin-top: -4px;
+    line-height: 20px;
+}
