@@ -4,22 +4,16 @@ import { Feet } from './components/Feet';
 import { Routes } from './Routes';
 import { BrowserRouter } from 'react-router-dom';
 
-
 function App() {
-    return ( <
-        BrowserRouter >
-        <
-        div className = "App" >
-        <
-        Header / >
-        <
-        Routes / >
-        <
-        Feet / >
-        <
-        /div> <
-        /BrowserRouter>
-    );
+	return (
+		<BrowserRouter>
+			<div className="App">
+				<Header />
+				<Routes />
+				<Feet />
+			</div>{' '}
+		</BrowserRouter>
+	);
 }
 
 export default App;

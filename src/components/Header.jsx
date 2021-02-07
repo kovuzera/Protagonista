@@ -73,7 +73,7 @@ export const Header = () => {
             </div>
             <div className='RightContainer'>
                 <div className='Searchbar'>
-                    <input type="text" placeholder='Procurar...' className='Input' id="MyInput"/>
+                    <input type="text" placeholder='Procurar...' className='Input' id="MyInput" />
                 </div>
                 <img src={Moon} alt='moon' className='Moon' />
             </div>
