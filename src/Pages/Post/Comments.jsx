@@ -1,6 +1,7 @@
 import React from 'react'
 import './Comments.css'
 import { FaPenNib } from 'react-icons/fa';
+import './Post.css'
 
 export const Comments = () => {
     return (

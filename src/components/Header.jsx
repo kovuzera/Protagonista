@@ -3,6 +3,7 @@ import { IoMdArrowDropdown } from 'react-icons/io'
 import { useHistory } from 'react-router-dom'
 import Logo from '../assets/logo.png'
 import Moon from '../assets/moon.png'
+import DarkMode from './DarkMode'
 import './Header.css'
 
 export const Header = () => {
@@ -75,7 +76,7 @@ export const Header = () => {
                 <div className='Searchbar'>
                     <input type="text" placeholder='Procurar...' className='Input' id="MyInput" />
                 </div>
-                <img src={Moon} alt='moon' className='Moon' />
+                <DarkMode/>
             </div>
         </div>
     </div>

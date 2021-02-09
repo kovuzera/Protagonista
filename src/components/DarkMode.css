@@ -1,0 +1,14 @@
+.ThemeIcon {
+    color: white;
+    border: none;
+    transition: color 0.3s ease;
+    cursor: pointer;
+    user-select: none;
+}
+.ThemeIcon:hover {
+    color: #61a974;
+    border: none;
+}
+.DarkModeContainer {
+    margin-left: 16px;
+}
