@@ -2,7 +2,6 @@ import React from 'react'
 import { IoMdArrowDropdown } from 'react-icons/io'
 import { useHistory } from 'react-router-dom'
 import Logo from '../assets/logo.png'
-import Moon from '../assets/moon.png'
 import DarkMode from './DarkMode'
 import './Header.css'
 

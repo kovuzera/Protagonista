@@ -1,6 +1,5 @@
 import React from 'react';
 import useDarkMode from 'use-dark-mode';
-import Moon from '../assets/moon.png';
 import { FiSun } from 'react-icons/fi';
 import { RiMoonClearFill } from 'react-icons/ri';
 import './DarkMode.css';
