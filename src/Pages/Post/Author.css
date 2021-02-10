@@ -4,7 +4,7 @@
 }
 .AuthorInfo {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     /* background-color: lightcoral; */
 }
 .AuthorImg {
@@ -15,7 +15,6 @@
     border-radius: 28px;
     align-self: center;
     margin-right: 8px;
-    margin-left: 8px;
 }
 .AuthorID{
     cursor: pointer;
@@ -24,4 +23,10 @@
 }
 .AuthorID:hover{
     text-decoration: underline;
+}
+.IconAndName {
+    margin-top: -16px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
 }

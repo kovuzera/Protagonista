@@ -6,10 +6,20 @@
     align-items: center;
 }
 
+.PostTitleContainer {
+    position: relative;
+    display: flex;
+    /* background-color: tomato;
+    height: 360px; */
+}
+
+
 .PostTitle {
     display: flex;
+    flex-direction: column;
     width: 1120px;
     text-align: center;
+    align-self: flex-end;
     margin-top: 26px;
     font-size: 20px;
     /* background-color: khaki; */
@@ -17,7 +27,6 @@
 
 .PostContent {
     display: flex;
-    flex-direction: row;
     text-align: left;
     /* background-color: rgb(255, 251, 0); */
     height: 1000px;
@@ -30,11 +39,10 @@
 .PostText {
     display: flex;
     text-align: justify;
-    /* background-color: lawngreen; */
+    flex-direction: column;
     height: 1000px;
-    width: 800px;
+    width: 860px;
     align-self: center;
-    margin-top: 16px;
     margin-left: 20px;
     line-height: 28px;
     font-size: 18px;
@@ -68,4 +76,15 @@
     color: #61a974;
     -moz-user-select: none;
     font-size: 16px;
+}
+.PostCover {
+    background-color: grey;
+    display: flex;
+    width: 100%;
+    height: px;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.1s;
 }
