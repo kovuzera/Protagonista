@@ -4,7 +4,7 @@ import { FiSun } from 'react-icons/fi';
 import { RiMoonClearFill } from 'react-icons/ri';
 import './DarkMode.css';
 
-const DarkMode = () => {
+export const DarkMode = () => {
 	const darkMode = useDarkMode(false);
 
 	return (

@@ -9,6 +9,21 @@
     margin-top: 20px;
 }
 
+.AddComment {
+    /* background-color: tomato; */
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    -webkit-transition: width 0.4s, height 0.4s, margin-bottom 0.4s ease-in-out;
+    width: 0.4s ease-in-out;
+    margin-bottom: 12px;
+}
+.AddComment:focus-within {
+    width: 100%;
+    height: 100%;
+    /* margin-bottom: 36px; */
+}
+
 .CommentInput {
     background-color: transparent;
     font-size: 14px;
@@ -22,15 +37,23 @@
     width: 0.4s ease-in-out;
     padding: 14px 24px;
     resize: none;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     font-family: 'Roboto', sans-serif;
 }
 
 .CommentInput:focus-within {
-    /* vertical-align: top; */
-    /* background-color: white; */
+    vertical-align: top;
+    background-color: white;
     width: 100%;
     height: 100px;
+}
+
+.PostComment {
+    background-color: #61a974;
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+    margin-top: 8px;
 }
 
 .CommentsTitle {
@@ -77,11 +100,11 @@
 }
 textarea.light-mode {
 	background-color: #fff;
-	color: #333;
+	color: rgb(255, 0, 0);
 	transition: background-color 0.3s ease;
 }
 textarea.dark-mode {
 	background-color: #1a1919;
-    color: white;
+    color: rgb(8, 136, 255);
     transition: background-color 0.3s ease;
 }
